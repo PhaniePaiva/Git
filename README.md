@@ -14,4 +14,7 @@ git add . - Adicionando os arquivos para poder ser feito um commit
 git add arquivo expecifico
 git commit -m "" - Commitando o arquivos adicionados
 git log - Verificar o commits que foram realizados assim como o reponsavel, data e hora.
-git log --pretty=oneline
+git log --pretty=oneline - Mostrar um resumo dos commits
+git diff - mostra o que foi feito nos arquivos commitados
+git restore --staged arquivo - Eles exclui o arquivo do commit
+git branch -M master - Renomear uma branch
