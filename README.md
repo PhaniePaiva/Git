@@ -1,20 +1,44 @@
 # Git
-Aulas de Git e Github
+Aulas de Git e Github<br>
+[Ir para vídeos aulas](https://www.youtube.com/watch?v=iQn5vZt0iWI&list=PLpaKFn4Q4GMOhOuffvi7VagNib0P325AV)
 
-Configurando o git Local
-git config --global user.name "Nome"
+
+## Configurando o git Local
+
+git config --global user.name "Nome"<br>
 git config --global user.email "Email do github"
 
+## Comandos
 
+#### git init
+Iniciando o GIT que será gerado a pasta .git
 
-git init - Iniciando o GIT que será gerado a pasta .git
-git branch - diretorios em quem os arquivos commitados ficam
-git status - Verifica como está os status dos arquivos antes do commit
-git add . - Adicionando os arquivos para poder ser feito um commit
-git add arquivo expecifico
-git commit -m "" - Commitando o arquivos adicionados
-git log - Verificar o commits que foram realizados assim como o reponsavel, data e hora.
-git log --pretty=oneline - Mostrar um resumo dos commits
-git diff - mostra o que foi feito nos arquivos commitados
-git restore --staged arquivo - Eles exclui o arquivo do commit
-git branch -M master - Renomear uma branch
+#### git branch 
+Diretorios em quem os arquivos commitados ficam.
+
+#### git status 
+Verifica como está os status dos arquivos antes do commit.
+
+#### git add .
+Adicionando os arquivos para poder ser feito um commit.
+
+#### git add 
+Nome do arquivo expecifico depois do add "git add arquivo.md".
+
+#### git commit -m "" 
+Commitando o arquivos adicionados.
+
+#### git log
+Verificar o commits que foram realizados assim como o reponsavel, data e hora.
+
+#### git log --pretty=oneline
+Mostrar um resumo dos commits.
+
+#### git diff 
+Mostra o que foi feito nos arquivos commitados
+
+#### git restore --staged arquivo
+Eles exclui o arquivo do commit
+
+#### git branch -M master
+Renomear uma branch
