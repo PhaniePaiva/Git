@@ -33,6 +33,15 @@ Nome do arquivo expecifico depois do add "git add arquivo.md".
 #### git commit -m "" 
 Commitando o arquivos adicionados.
 
+#### git remote add origin ur_do_github
+Git local esta se comunicando com o git remoto
+
+#### git remote get-url origin
+Aparece a url que foi configurada
+
+#### git push -u origin Nome_da_Branch
+Subindo todos os commits para o git remoto na Branch origin
+
 #### git log
 Verificar o commits que foram realizados assim como o reponsavel, data e hora.
 
