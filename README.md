@@ -56,3 +56,6 @@ Eles exclui o arquivo do commit
 
 #### git branch -M master
 Renomear uma branch
+
+#### git blame nome_do_arquivo
+Mostrar linha a linha e as alterações do usuario de que fez
