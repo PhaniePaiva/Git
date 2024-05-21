@@ -6,7 +6,13 @@ Aulas de Git e Github<br>
 ## Configurando o git Local
 
 git config --global user.name "Nome"<br>
-git config --global user.email "Email do github"
+git config --global user.email "Email do github"<br>
+git config --list
+
+## Configurando o chave SSH
+ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"<br>
+cat ~/.ssh/id_rsa.pub <br>
+cat ~/.ssh/id_rsa.pub 
 
 ## Comandos
 
