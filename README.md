@@ -59,3 +59,7 @@ Renomear uma branch
 
 #### git blame nome_do_arquivo
 Mostrar linha a linha e as alterações do usuario de que fez
+
+#### git branch -m "nova-feature"
+Criando uma nova branch 
+
