@@ -60,7 +60,7 @@ Renomear uma branch
 #### git blame nome_do_arquivo
 Mostrar linha a linha e as alterações do usuario de que fez
 
-#### git branch -m "nova-feature"
+#### git checkout -b "nova-feature"
 Criando uma nova branch 
 
 #### git push --set-upstream origin nova-feature
