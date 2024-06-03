@@ -63,5 +63,14 @@ Mostrar linha a linha e as alterações do usuario de que fez
 #### git checkout -b "nova-feature"
 Criando uma nova branch 
 
-#### git push --set-upstream origin nova-feature
+#### git checkout main
+Mudando a branch
+
+#### git push --set-upstream origin "nova-feature" ou git push origin nova-feature 
 Subindo somente o commit da branch recem criada
+
+#### git merge novo-fix
+Fazendo um pull request local
+
+#### git branch -d nova-fix
+Excluindo a branch local
