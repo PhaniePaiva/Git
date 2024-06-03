@@ -74,3 +74,9 @@ Fazendo um pull request local
 
 #### git branch -d nova-fix
 Excluindo a branch local
+
+#### git stash
+Guardar no stash
+
+#### git stash pop 
+recuperar do stash o que foi guardado anteriomente
