@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Hello World!</h1>
-    <h2>Subtitulo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam beatae velit suscipit amet quasi assumenda praesentium sint voluptatem, est doloremque quaerat autem aspernatur veritatis! Impedit temporibus laborum consectetur facilis velit.</p>
+    <h2>Subtexto</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusantium modi deleniti rerum assumenda mollitia distinctio.</p>
 </body>
 </html>
