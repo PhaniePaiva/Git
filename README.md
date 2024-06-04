@@ -73,10 +73,14 @@ Subindo somente o commit da branch recem criada
 Fazendo um pull request local
 
 #### git branch -d nova-fix
-Excluindo a branch local
+Excluindo a branch localmente
+
+#### git push -d origin outra-feature
+Apagar a branch remotamente
 
 #### git stash
 Guardar no stash
 
 #### git stash pop 
 recuperar do stash o que foi guardado anteriomente
+
