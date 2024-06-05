@@ -10,8 +10,7 @@ git config --global user.email "Email do github"<br>
 
 ## Configurando o chave SSH
 ssh-keygen -t rsa -b 4096 -C "seu_email@example.com"<br>
-cat ~/.ssh/id_rsa.pub <br>
-cat ~/.ssh/id_rsa.pub 
+cat ~/.ssh/id_rsa.pub
 
 ## Comandos
 
@@ -65,7 +64,7 @@ Criando uma nova branch
 
 #### git checkout main
 Mudando a branch
-
+ 
 #### git push --set-upstream origin "nova-feature" ou git push origin nova-feature 
 Subindo somente o commit da branch recem criada
 
@@ -82,5 +81,19 @@ Apagar a branch remotamente
 Guardar no stash
 
 #### git stash pop 
-recuperar do stash o que foi guardado anteriomente
+Recuperar do stash o que foi guardado anteriomente
 
+#### git revert
+Comando utilizado para desfazer mudanças em um repositorio
+
+#### git reset
+Desfaz as alterações salvas e coloca o repositorio no estado em que se encontrava anteriormente.<br>
+ 
+#### git reset --soft 
+Reseta apenas o commit history
+
+#### git reset --mixed
+Reseta apenas o commit history e os arquivos staged
+
+#### git reset --hard 
+Reseta tudo - commit history, arquivos staged e até arquivos salvos "not staged"
